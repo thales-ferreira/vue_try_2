@@ -1,20 +1,18 @@
-
+import 'NavBar' from ../components/NavBar
   <template>
-    <div class="center content-inputs">
-      <vs-input v-model="value" placeholder="No" />
-      <vs-button :active="active == 0" @click="active = 0">Active</vs-button>
-    
-    
-    </div>
-  </template>
+  <div class="center content-inputs">
+    <vs-input v-model="value" placeholder="No" />
+    <vs-button :active="active == 0" @click="active = 0">Active</vs-button>
+  </div>
+</template>
 
 
 
 <script>
 export default {
   data: () => ({
-    active: 0
-  })
+    active: 0,
+  }),
 };
 </script>
 

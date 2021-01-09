@@ -1,4 +1,4 @@
-   <template>
+ <template>
   <div class="center examplex">
     <vs-navbar center-collapsed v-model="active">
       <template #left>
